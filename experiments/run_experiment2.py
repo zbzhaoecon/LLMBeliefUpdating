@@ -51,8 +51,8 @@ from belief_elicitation.integration import (
     extract_amount,
 )
 
-BASE_URL = "http://35.220.164.252:3888/v1/"
-API_KEY = "sk-c8j8scGHgCgeEkDvKetBLee00aDrhOAGuJ4WRctUDvmNXjPp"
+BASE_URL = "url here"
+API_KEY = "your key here"
 MODEL = "gpt-4.1-mini"
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
