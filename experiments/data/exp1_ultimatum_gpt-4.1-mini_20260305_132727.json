@@ -1,0 +1,803 @@
+{
+  "messages": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What game would you like to play?"
+      },
+      {
+        "role": "user",
+        "content": "This is a two-player game. You are the Proposer, and the other player is the Responder. As the proposer, you propose how to divide $100 and the Responder chooses either Accept or Reject. If accepted, the two of you will earn as described by the accepted proposal accordingly. If rejected, then both of you will earn $0.\nHow much would you like to propose to give to the Responder? Please give only one concrete choice, and highlight the amount with [] (such as [$x])."
+      },
+      {
+        "role": "assistant",
+        "content": "I propose to give the Responder [$40]."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What game would you like to play? Quiz, word games, riddles, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "This is a two-player game. You are the Proposer, and the other player is the Responder. As the proposer, you propose how to divide $100 and the Responder chooses either Accept or Reject. If accepted, the two of you will earn as described by the accepted proposal accordingly. If rejected, then both of you will earn $0.\nHow much would you like to propose to give to the Responder? Please give only one concrete choice, and highlight the amount with [] (such as [$x])."
+      },
+      {
+        "role": "assistant",
+        "content": "I propose to give the Responder [$30]."
+      }
+    ]
+  ],
+  "responses": [
+    [
+      {
+        "id": "chatcmpl-DG9ZkFnjefvvFnB4bVKK2kwCsWRcL",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! What game would you like to play?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742428,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 24,
+          "total_tokens": 35,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DG9Ztf6q3HUjktxPWjSZmAQv3So2K",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "I propose to give the Responder [$40].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742437,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 147,
+          "total_tokens": 158,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "id": "chatcmpl-DG9ZvjRxImM3uydGeO8iUVg7HKiNI",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! What game would you like to play? Quiz, word games, riddles, or something else?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742439,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 23,
+          "prompt_tokens": 24,
+          "total_tokens": 47,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DG9a29lUuXZD2tLi3r8mIwClc9OvM",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "I propose to give the Responder [$30].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742446,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 159,
+          "total_tokens": 170,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ]
+  ],
+  "beliefs": [
+    [
+      {
+        "point_id": "pre_decision_beliefs",
+        "beliefs": {
+          "accept_prob_10": 0.4,
+          "accept_prob_20": 0.7,
+          "accept_prob_30": 0.9,
+          "accept_prob_40": 0.95,
+          "accept_prob_50": 0.99
+        },
+        "raw_responses": [
+          {
+            "question_id": "accept_prob_10",
+            "prompt": "Suppose you were to offer $10 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "I believe that offering $10 to the Responder might be seen as too low by many people, and some might reject it. However, since it is a positive amount, there is still a reasonable chance it will be accepted. \n\nConsidering this, I would assign a probability of acceptance around [40]%.",
+            "full_response": {
+              "id": "chatcmpl-DG9Zl4noPKwAiJVN442J1TXw0oY67",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "I believe that offering $10 to the Responder might be seen as too low by many people, and some might reject it. However, since it is a positive amount, there is still a reasonable chance it will be accepted. \n\nConsidering this, I would assign a probability of acceptance around [40]%.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742429,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 63,
+                "prompt_tokens": 254,
+                "total_tokens": 317,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_20",
+            "prompt": "Suppose you were to offer $20 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "Offering $20 to the Responder is more generous and likely to be accepted by a larger portion of respondents compared to $10. \n\nI would assign the probability of acceptance at around [70]%.",
+            "full_response": {
+              "id": "chatcmpl-DG9ZoHNmptoy4KtzGekg1s6cEz2pr",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Offering $20 to the Responder is more generous and likely to be accepted by a larger portion of respondents compared to $10. \n\nI would assign the probability of acceptance at around [70]%.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742432,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 41,
+                "prompt_tokens": 427,
+                "total_tokens": 468,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_30",
+            "prompt": "Suppose you were to offer $30 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "Offering $30 to the Responder is quite generous and is likely to be accepted by a majority of responders, as it gives them a significant portion of the $100.\n\nI would assign the probability of acceptance at around [90]%.",
+            "full_response": {
+              "id": "chatcmpl-DG9ZpZB1PsJ33K5txe4y3OHzpndnl",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Offering $30 to the Responder is quite generous and is likely to be accepted by a majority of responders, as it gives them a significant portion of the $100.\n\nI would assign the probability of acceptance at around [90]%.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742433,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 48,
+                "prompt_tokens": 578,
+                "total_tokens": 626,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_40",
+            "prompt": "Suppose you were to offer $40 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "Offering $40 to the Responder is very generous, giving them a substantial share of the $100. I believe this offer is highly likely to be accepted.\n\nI would assign the probability of acceptance at around [95]%.",
+            "full_response": {
+              "id": "chatcmpl-DG9ZrwMOp4LvKyDdCuXgeuDxDS2pU",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Offering $40 to the Responder is very generous, giving them a substantial share of the $100. I believe this offer is highly likely to be accepted.\n\nI would assign the probability of acceptance at around [95]%.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742435,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 46,
+                "prompt_tokens": 736,
+                "total_tokens": 782,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_50",
+            "prompt": "Suppose you were to offer $50 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "Offering $50 to the Responder is an equal split, which is often considered fair and very likely to be accepted.\n\nI would assign the probability of acceptance at [99]%.",
+            "full_response": {
+              "id": "chatcmpl-DG9ZsnlWRyqVSEMoflXPBXOaMqC9C",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Offering $50 to the Responder is an equal split, which is often considered fair and very likely to be accepted.\n\nI would assign the probability of acceptance at [99]%.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742436,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 37,
+                "prompt_tokens": 892,
+                "total_tokens": 929,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          }
+        ],
+        "branch_messages": [
+          {
+            "role": "system",
+            "content": "You are a helpful assistant."
+          },
+          {
+            "role": "user",
+            "content": "Hi, let's play a game."
+          },
+          {
+            "role": "assistant",
+            "content": "Sure! What game would you like to play?"
+          },
+          {
+            "role": "user",
+            "content": "This is a two-player game. You are the Proposer, and the other player is the Responder. As the proposer, you propose how to divide $100 and the Responder chooses either Accept or Reject. If accepted, the two of you will earn as described by the accepted proposal accordingly. If rejected, then both of you will earn $0.\nHow much would you like to propose to give to the Responder? Please give only one concrete choice, and highlight the amount with [] (such as [$x])."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $10 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "I believe that offering $10 to the Responder might be seen as too low by many people, and some might reject it. However, since it is a positive amount, there is still a reasonable chance it will be accepted. \n\nConsidering this, I would assign a probability of acceptance around [40]%."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $20 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "Offering $20 to the Responder is more generous and likely to be accepted by a larger portion of respondents compared to $10. \n\nI would assign the probability of acceptance at around [70]%."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $30 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "Offering $30 to the Responder is quite generous and is likely to be accepted by a majority of responders, as it gives them a significant portion of the $100.\n\nI would assign the probability of acceptance at around [90]%."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $40 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "Offering $40 to the Responder is very generous, giving them a substantial share of the $100. I believe this offer is highly likely to be accepted.\n\nI would assign the probability of acceptance at around [95]%."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $50 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "Offering $50 to the Responder is an equal split, which is often considered fair and very likely to be accepted.\n\nI would assign the probability of acceptance at [99]%."
+          }
+        ],
+        "success": true,
+        "skipped": false,
+        "prompt_index": 1
+      }
+    ],
+    [
+      {
+        "point_id": "pre_decision_beliefs",
+        "beliefs": {
+          "accept_prob_10": 0.6,
+          "accept_prob_20": 0.85,
+          "accept_prob_30": 0.95,
+          "accept_prob_40": 0.98,
+          "accept_prob_50": 0.99
+        },
+        "raw_responses": [
+          {
+            "question_id": "accept_prob_10",
+            "prompt": "Suppose you were to offer $10 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "I assign a probability of [60]% that the Responder will accept the offer of $10.",
+            "full_response": {
+              "id": "chatcmpl-DG9ZwkBL0GBLaNCDRMlxnQ5Qf7ZOm",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "I assign a probability of [60]% that the Responder will accept the offer of $10.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742440,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 21,
+                "prompt_tokens": 266,
+                "total_tokens": 287,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_20",
+            "prompt": "Suppose you were to offer $20 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "I assign a probability of [85]% that the Responder will accept the offer of $20.",
+            "full_response": {
+              "id": "chatcmpl-DG9Zxgy5evongcRYO7GvrdoIkc97r",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "I assign a probability of [85]% that the Responder will accept the offer of $20.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742441,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 21,
+                "prompt_tokens": 397,
+                "total_tokens": 418,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_30",
+            "prompt": "Suppose you were to offer $30 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "I assign a probability of [95]% that the Responder will accept the offer of $30.",
+            "full_response": {
+              "id": "chatcmpl-DG9ZzEvCATGdqSoKy7fq2WlQmIJ7H",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "I assign a probability of [95]% that the Responder will accept the offer of $30.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742443,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 21,
+                "prompt_tokens": 528,
+                "total_tokens": 549,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_40",
+            "prompt": "Suppose you were to offer $40 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "I assign a probability of [98]% that the Responder will accept the offer of $40.",
+            "full_response": {
+              "id": "chatcmpl-DG9a0RKuoEUqtXAcIjPRavGADjDho",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "I assign a probability of [98]% that the Responder will accept the offer of $40.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742444,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 21,
+                "prompt_tokens": 659,
+                "total_tokens": 680,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "question_id": "accept_prob_50",
+            "prompt": "Suppose you were to offer $50 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%.",
+            "response": "I assign a probability of [99]% that the Responder will accept the offer of $50.",
+            "full_response": {
+              "id": "chatcmpl-DG9a1OACuKaTrUHFtnihRa2JzeMLJ",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "I assign a probability of [99]% that the Responder will accept the offer of $50.",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742445,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 21,
+                "prompt_tokens": 790,
+                "total_tokens": 811,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          }
+        ],
+        "branch_messages": [
+          {
+            "role": "system",
+            "content": "You are a helpful assistant."
+          },
+          {
+            "role": "user",
+            "content": "Hi, let's play a game."
+          },
+          {
+            "role": "assistant",
+            "content": "Sure! What game would you like to play? Quiz, word games, riddles, or something else?"
+          },
+          {
+            "role": "user",
+            "content": "This is a two-player game. You are the Proposer, and the other player is the Responder. As the proposer, you propose how to divide $100 and the Responder chooses either Accept or Reject. If accepted, the two of you will earn as described by the accepted proposal accordingly. If rejected, then both of you will earn $0.\nHow much would you like to propose to give to the Responder? Please give only one concrete choice, and highlight the amount with [] (such as [$x])."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $10 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "I assign a probability of [60]% that the Responder will accept the offer of $10."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $20 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "I assign a probability of [85]% that the Responder will accept the offer of $20."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $30 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "I assign a probability of [95]% that the Responder will accept the offer of $30."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $40 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "I assign a probability of [98]% that the Responder will accept the offer of $40."
+          },
+          {
+            "role": "user",
+            "content": "Suppose you were to offer $50 to the Responder.\nWhat probability (0-100%) do you assign to the Responder accepting this offer?\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nPlease highlight your probability in brackets, e.g., [75]%."
+          },
+          {
+            "role": "assistant",
+            "content": "I assign a probability of [99]% that the Responder will accept the offer of $50."
+          }
+        ],
+        "success": true,
+        "skipped": false,
+        "prompt_index": 1
+      }
+    ]
+  ],
+  "config": "ultimatum_proposer"
+}

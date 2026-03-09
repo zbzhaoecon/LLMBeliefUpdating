@@ -1,0 +1,217 @@
+{
+  "messages": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What kind of game would you like to play? Trivia, word games, riddles, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. You both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 3 points\n* You choose 'Hare', the other chooses 'Stag': You earn 3 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nFor this round, suppose you believe there is a 10% chance the other player will choose Stag.\n\nWhich would you choose? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "Let's calculate the expected payoffs for each choice.\n\nIf I choose Stag:\n- If the other chooses Stag (10% chance), I get 4 points.\n- If the other chooses Hare (90% chance), I get 0 points.\n\nExpected payoff choosing Stag = (0.10 * 4) + (0.90 * 0) = 0.4 points\n\nIf I choose Hare:\n- If the other chooses Stag (10% chance), I get 3 points.\n- If the other chooses Hare (90% chance), I get 2 points.\n\nExpected payoff choosing Hare = (0.10 * 3) + (0.90 * 2) = 0.3 + 1.8 = 2.1 points\n\nSince 2.1 > 0.4, it's better to choose Hare.\n\nMy choice is [Hare]."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What game would you like to play?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. You both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 3 points\n* You choose 'Hare', the other chooses 'Stag': You earn 3 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nFor this round, suppose you believe there is a 10% chance the other player will choose Stag.\n\nWhich would you choose? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "Let's calculate the expected payoffs for both choices:\n\n- If I choose Stag:\n  Expected payoff = (0.10 * 4) + (0.90 * 0) = 0.4\n\n- If I choose Hare:\n  Expected payoff = (0.10 * 3) + (0.90 * 2) = 0.3 + 1.8 = 2.1\n\nSince 2.1 > 0.4, I will choose [Hare]."
+      }
+    ]
+  ],
+  "responses": [
+    [
+      {
+        "id": "chatcmpl-DGELSEU7ZhJYnckfthxRzLU48MJmQ",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! What kind of game would you like to play? Trivia, word games, riddles, or something else?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760762,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 25,
+          "prompt_tokens": 24,
+          "total_tokens": 49,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DGELTGD5w7UJvMawcb62ikIPPQEr7",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Let's calculate the expected payoffs for each choice.\n\nIf I choose Stag:\n- If the other chooses Stag (10% chance), I get 4 points.\n- If the other chooses Hare (90% chance), I get 0 points.\n\nExpected payoff choosing Stag = (0.10 * 4) + (0.90 * 0) = 0.4 points\n\nIf I choose Hare:\n- If the other chooses Stag (10% chance), I get 3 points.\n- If the other chooses Hare (90% chance), I get 2 points.\n\nExpected payoff choosing Hare = (0.10 * 3) + (0.90 * 2) = 0.3 + 1.8 = 2.1 points\n\nSince 2.1 > 0.4, it's better to choose Hare.\n\nMy choice is [Hare].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760763,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 185,
+          "prompt_tokens": 227,
+          "total_tokens": 412,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "id": "chatcmpl-DGELWhwK8q3ZodAbmW1VzQYzrf3i9",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! What game would you like to play?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760766,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 24,
+          "total_tokens": 35,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DGELXdI1EIbF5czmusd8qYarkF0Q9",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Let's calculate the expected payoffs for both choices:\n\n- If I choose Stag:\n  Expected payoff = (0.10 * 4) + (0.90 * 0) = 0.4\n\n- If I choose Hare:\n  Expected payoff = (0.10 * 3) + (0.90 * 2) = 0.3 + 1.8 = 2.1\n\nSince 2.1 > 0.4, I will choose [Hare].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760767,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 106,
+          "prompt_tokens": 213,
+          "total_tokens": 319,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ]
+  ],
+  "actions": [
+    "Hare",
+    "Hare"
+  ],
+  "injected_belief": 10,
+  "game": "stag_hunt",
+  "config": "exp2b_stag_hunt"
+}

@@ -1,0 +1,114 @@
+{
+  "2a_stag_hunt": {
+    "game": "stag_hunt",
+    "n_total": 10,
+    "treatments": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "first_stage": {
+      "gamma_0": 0.011250000000000093,
+      "gamma_1": 0.09875,
+      "r_squared": 0.9972834771492488,
+      "p_value": 1.4906784702450647e-11,
+      "se": 0.0018221724671392075
+    },
+    "reduced_form": {
+      "delta_0": 0.07499999999999996,
+      "delta_1": 0.125,
+      "r_squared": 0.5952380952380951,
+      "p_value": 0.008955218355084664,
+      "se": 0.03644344934278314
+    },
+    "iv_estimate": {
+      "beta_iv": 1.2658227848101264,
+      "note": "Causal effect of belief on action (IV: X instruments b)"
+    },
+    "dose_response": {
+      "1": {
+        "coop_rate": 0.0,
+        "mean_belief": 0.1,
+        "n": 2
+      },
+      "3": {
+        "coop_rate": 0.5,
+        "mean_belief": 0.32499999999999996,
+        "n": 2
+      },
+      "5": {
+        "coop_rate": 1.0,
+        "mean_belief": 0.5,
+        "n": 2
+      },
+      "7": {
+        "coop_rate": 1.0,
+        "mean_belief": 0.7,
+        "n": 2
+      },
+      "9": {
+        "coop_rate": 1.0,
+        "mean_belief": 0.9,
+        "n": 2
+      }
+    }
+  },
+  "2a_pd": {
+    "game": "pd",
+    "n_total": 10,
+    "treatments": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "first_stage": {
+      "gamma_0": 1.1102230246251565e-16,
+      "gamma_1": 0.1,
+      "r_squared": 1.0,
+      "p_value": 4.375000000000076e-80,
+      "se": 0.0
+    },
+    "reduced_form": {
+      "delta_0": 0.275,
+      "delta_1": 0.025,
+      "r_squared": 0.02083333333333334,
+      "p_value": 0.6907576397690647,
+      "se": 0.06059599821770411
+    },
+    "iv_estimate": {
+      "beta_iv": 0.25,
+      "note": "Causal effect of belief on action (IV: X instruments b)"
+    },
+    "dose_response": {
+      "1": {
+        "coop_rate": 0.0,
+        "mean_belief": 0.1,
+        "n": 2
+      },
+      "3": {
+        "coop_rate": 0.5,
+        "mean_belief": 0.3,
+        "n": 2
+      },
+      "5": {
+        "coop_rate": 0.5,
+        "mean_belief": 0.5,
+        "n": 2
+      },
+      "7": {
+        "coop_rate": 1.0,
+        "mean_belief": 0.7,
+        "n": 2
+      },
+      "9": {
+        "coop_rate": 0.0,
+        "mean_belief": 0.9,
+        "n": 2
+      }
+    }
+  }
+}

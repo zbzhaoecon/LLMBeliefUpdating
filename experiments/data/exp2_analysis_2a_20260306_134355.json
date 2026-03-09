@@ -1,0 +1,114 @@
+{
+  "2a_stag_hunt": {
+    "game": "stag_hunt",
+    "n_total": 149,
+    "treatments": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "first_stage": {
+      "gamma_0": -2.220446049250313e-16,
+      "gamma_1": 0.10000000000000003,
+      "r_squared": 1.0,
+      "p_value": 0.0,
+      "se": 0.0
+    },
+    "reduced_form": {
+      "delta_0": 0.0746085011185681,
+      "delta_1": 0.12333333333333336,
+      "r_squared": 0.5740284226818627,
+      "p_value": 4.9592359633489327e-29,
+      "se": 0.00876285074628931
+    },
+    "iv_estimate": {
+      "beta_iv": 1.2333333333333332,
+      "note": "Causal effect of belief on action (IV: X instruments b)"
+    },
+    "dose_response": {
+      "1": {
+        "coop_rate": 0.0,
+        "mean_belief": 0.10000000000000003,
+        "n": 30
+      },
+      "3": {
+        "coop_rate": 0.5333333333333333,
+        "mean_belief": 0.30000000000000004,
+        "n": 30
+      },
+      "5": {
+        "coop_rate": 0.9310344827586207,
+        "mean_belief": 0.5,
+        "n": 29
+      },
+      "7": {
+        "coop_rate": 1.0,
+        "mean_belief": 0.6999999999999997,
+        "n": 30
+      },
+      "9": {
+        "coop_rate": 1.0,
+        "mean_belief": 0.8999999999999998,
+        "n": 30
+      }
+    }
+  },
+  "2a_pd": {
+    "game": "pd",
+    "n_total": 147,
+    "treatments": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "first_stage": {
+      "gamma_0": 0.0034533859212104723,
+      "gamma_1": 0.09965229725989486,
+      "r_squared": 0.9972818072177106,
+      "p_value": 6.403372485177244e-188,
+      "se": 0.0004320504809428999
+    },
+    "reduced_form": {
+      "delta_0": -0.16441784297444453,
+      "delta_1": 0.0785012455023527,
+      "r_squared": 0.27816656852395355,
+      "p_value": 6.72477782081419e-12,
+      "se": 0.01050167504874539
+    },
+    "iv_estimate": {
+      "beta_iv": 0.78775148853438,
+      "note": "Causal effect of belief on action (IV: X instruments b)"
+    },
+    "dose_response": {
+      "1": {
+        "coop_rate": 0.0,
+        "mean_belief": 0.10344827586206899,
+        "n": 29
+      },
+      "3": {
+        "coop_rate": 0.034482758620689655,
+        "mean_belief": 0.30000000000000004,
+        "n": 29
+      },
+      "5": {
+        "coop_rate": 0.13793103448275862,
+        "mean_belief": 0.5051724137931035,
+        "n": 29
+      },
+      "7": {
+        "coop_rate": 0.3333333333333333,
+        "mean_belief": 0.6999999999999997,
+        "n": 30
+      },
+      "9": {
+        "coop_rate": 0.6333333333333333,
+        "mean_belief": 0.8999999999999998,
+        "n": 30
+      }
+    }
+  }
+}

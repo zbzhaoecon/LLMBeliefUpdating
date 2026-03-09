@@ -1,0 +1,76 @@
+{
+  "2c": {
+    "game": "stag_hunt_fake_history",
+    "n_total": 12,
+    "belief_tracking": {
+      "0": {
+        "mean_belief": 0.05,
+        "std_belief": 0.05,
+        "n": 2
+      },
+      "1": {
+        "mean_belief": 0.2,
+        "std_belief": 0.0,
+        "n": 2
+      },
+      "2": {
+        "mean_belief": 0.45,
+        "std_belief": 0.04999999999999999,
+        "n": 2
+      },
+      "3": {
+        "mean_belief": 0.7350000000000001,
+        "std_belief": 0.065,
+        "n": 2
+      },
+      "4": {
+        "mean_belief": 0.55,
+        "std_belief": 0.14999999999999997,
+        "n": 2
+      },
+      "5": {
+        "mean_belief": 0.9,
+        "std_belief": 0.0,
+        "n": 2
+      }
+    },
+    "belief_monotone": false,
+    "belief_vs_k_regression": {
+      "slope": 0.15957142857142856,
+      "intercept": 0.08190476190476198,
+      "r_squared": 0.8217734224834325,
+      "p_value": 4.797489488856995e-05
+    },
+    "action_rates": {
+      "0": {
+        "stag_rate": 0.0,
+        "n": 2
+      },
+      "1": {
+        "stag_rate": 0.0,
+        "n": 2
+      },
+      "2": {
+        "stag_rate": 0.0,
+        "n": 2
+      },
+      "3": {
+        "stag_rate": 1.0,
+        "n": 2
+      },
+      "4": {
+        "stag_rate": 0.0,
+        "n": 2
+      },
+      "5": {
+        "stag_rate": 1.0,
+        "n": 2
+      }
+    },
+    "belief_action_logistic": {
+      "beta_0": -14.496652143981915,
+      "beta_1": 21.347331767122306,
+      "threshold": 0.6790849695936549
+    }
+  }
+}

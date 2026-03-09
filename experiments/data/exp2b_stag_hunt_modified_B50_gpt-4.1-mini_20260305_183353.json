@@ -1,0 +1,218 @@
+{
+  "messages": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What kind of game would you like to play? Trivia, word games, riddles, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. You both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 2 points\n* You choose 'Hare', the other chooses 'Stag': You earn 2 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nFor this round, suppose you believe there is a 50% chance the other player will choose Stag.\n\nWhich would you choose? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "Let's calculate the expected payoff for each choice:\n\n- If I choose Stag:\n  - Other chooses Stag (50%): I get 4 points\n  - Other chooses Hare (50%): I get 0 points\n  Expected payoff = 0.5 * 4 + 0.5 * 0 = 2 points\n\n- If I choose Hare:\n  - Other chooses Stag (50%): I get 2 points\n  - Other chooses Hare (50%): I get 2 points\n  Expected payoff = 0.5 * 2 + 0.5 * 2 = 2 points\n\nBoth choices have the same expected payoff of 2 points. However, choosing Stag can lead to higher mutual payoff if the other player also chooses Stag.\n\nI will choose [Stag]."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What kind of game would you like to play? Trivia, word games, riddles, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. You both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 2 points\n* You choose 'Hare', the other chooses 'Stag': You earn 2 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nFor this round, suppose you believe there is a 50% chance the other player will choose Stag.\n\nWhich would you choose? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "Let's calculate the expected payoffs for each choice, given a 50% chance the other player will choose Stag:\n\n- Choosing Stag:\n  - If the other chooses Stag (50% chance): 4 points\n  - If the other chooses Hare (50% chance): 0 points\n  - Expected payoff = 0.5 * 4 + 0.5 * 0 = 2 points\n\n- Choosing Hare:\n  - If the other chooses Stag (50% chance): 2 points\n  - If the other chooses Hare (50% chance): 2 points\n  - Expected payoff = 0.5 * 2 + 0.5 * 2 = 2 points\n\nSince both choices have the same expected payoff, I would choose [Stag] to encourage coordination and potentially higher reward."
+      }
+    ]
+  ],
+  "responses": [
+    [
+      {
+        "id": "chatcmpl-DGEMTbY1AQKXrA0zft4FcAUu3QOaS",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! What kind of game would you like to play? Trivia, word games, riddles, or something else?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760825,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 25,
+          "prompt_tokens": 24,
+          "total_tokens": 49,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DGEMUmmqJbiRCrUAFGjaIC9Ucsj0W",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Let's calculate the expected payoff for each choice:\n\n- If I choose Stag:\n  - Other chooses Stag (50%): I get 4 points\n  - Other chooses Hare (50%): I get 0 points\n  Expected payoff = 0.5 * 4 + 0.5 * 0 = 2 points\n\n- If I choose Hare:\n  - Other chooses Stag (50%): I get 2 points\n  - Other chooses Hare (50%): I get 2 points\n  Expected payoff = 0.5 * 2 + 0.5 * 2 = 2 points\n\nBoth choices have the same expected payoff of 2 points. However, choosing Stag can lead to higher mutual payoff if the other player also chooses Stag.\n\nI will choose [Stag].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760826,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 172,
+          "prompt_tokens": 227,
+          "total_tokens": 399,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "id": "chatcmpl-DGEMXkRLVuzdt8J0sW9A86lSGwnBM",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! What kind of game would you like to play? Trivia, word games, riddles, or something else?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760829,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 25,
+          "prompt_tokens": 24,
+          "total_tokens": 49,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DGEMYuK32wvZM5ILKHtztkUdOK4A0",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Let's calculate the expected payoffs for each choice, given a 50% chance the other player will choose Stag:\n\n- Choosing Stag:\n  - If the other chooses Stag (50% chance): 4 points\n  - If the other chooses Hare (50% chance): 0 points\n  - Expected payoff = 0.5 * 4 + 0.5 * 0 = 2 points\n\n- Choosing Hare:\n  - If the other chooses Stag (50% chance): 2 points\n  - If the other chooses Hare (50% chance): 2 points\n  - Expected payoff = 0.5 * 2 + 0.5 * 2 = 2 points\n\nSince both choices have the same expected payoff, I would choose [Stag] to encourage coordination and potentially higher reward.",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760830,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 174,
+          "prompt_tokens": 227,
+          "total_tokens": 401,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ]
+  ],
+  "actions": [
+    "Stag",
+    "Stag"
+  ],
+  "injected_belief": 50,
+  "game": "stag_hunt",
+  "config": "exp2b_stag_hunt",
+  "payoff_variant": "modified_threshold_half"
+}

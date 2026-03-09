@@ -1,0 +1,4580 @@
+{
+  "stag_hunt": {
+    "game": "stag_hunt",
+    "bacr": {
+      "rate": 0.596,
+      "n_consistent": 149,
+      "n_total": 250,
+      "details": [
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.75,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.45,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.33,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.65,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.33,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.75,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.85,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.65,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.33,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.45,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.65,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.85,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.25,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.65,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.2,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.1,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.55,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.75,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.55,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.8,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.9,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.4,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Hare",
+          "belief": 0.6,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Stag",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": false
+        },
+        {
+          "action": "Stag",
+          "belief": 0.7,
+          "predicted": "Stag",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.3,
+          "predicted": "Hare",
+          "consistent": true
+        },
+        {
+          "action": "Hare",
+          "belief": 0.5,
+          "predicted": "Hare",
+          "consistent": true
+        }
+      ]
+    },
+    "logistic": {
+      "beta0": -2.8935735305284145,
+      "beta1": 8.311870454925895,
+      "threshold": 0.34812543653319156,
+      "p_value": 1.3946621635341216e-12,
+      "n": 250,
+      "mean_y": 0.66,
+      "mean_x": 0.48816
+    },
+    "binned": [
+      {
+        "bin": "[0.00, 0.33)",
+        "n": 93,
+        "n_positive": 35,
+        "rate": 0.3763440860215054
+      },
+      {
+        "bin": "[0.33, 0.67)",
+        "n": 91,
+        "n_positive": 65,
+        "rate": 0.7142857142857143
+      },
+      {
+        "bin": "[0.67, 1.01)",
+        "n": 66,
+        "n_positive": 65,
+        "rate": 0.9848484848484849
+      }
+    ],
+    "calibration": {
+      "mean_belief": 0.48816,
+      "true_rate": 0.5,
+      "bias": -0.011840000000000017,
+      "abs_bias": 0.011840000000000017,
+      "std": 0.21867010403802345,
+      "n": 250
+    },
+    "n_observations": 250
+  },
+  "pd_infinite": {
+    "game": "pd_infinite",
+    "delta": 0.9,
+    "p_star": 0.0,
+    "note": "delta=0.9 > 3/4: cooperation optimal for any p>0 against TFT",
+    "bacr_type": {
+      "rate": 0.44421487603305787,
+      "n_consistent": 215,
+      "n_total": 484,
+      "details": [
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.65,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.99,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.25,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.6,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.6,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.99,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.6,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.25,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.6,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.25,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.6,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.25,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.25,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.55,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.75,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.99,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.6,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.15,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.25,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 1.0,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.99,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.05,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.95,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.85,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.9,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.66,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.35,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        }
+      ]
+    },
+    "logistic_type": {
+      "beta0": -2.1077894138470437,
+      "beta1": 2.9815241326100255,
+      "threshold": 0.7069503113502842,
+      "p_value": 0.0,
+      "n": 484,
+      "mean_y": 0.36983471074380164,
+      "mean_x": 0.48609504132231407
+    },
+    "logistic_action": {
+      "beta0": -1.5779048865983056,
+      "beta1": 3.6644749080857073,
+      "threshold": 0.4305950855650941,
+      "p_value": 0.0,
+      "n": 496,
+      "mean_y": 0.3649193548387097,
+      "mean_x": 0.2558870967741936
+    },
+    "bayesian_updating": {
+      "after_push": {
+        "n": 192,
+        "mean_change": 0.19984375000000001
+      },
+      "after_pull": {
+        "n": 228,
+        "mean_change": -0.15206140350877193
+      }
+    },
+    "calibration_type": {
+      "mean_belief": 0.48609504132231407,
+      "true_rate": 0.5,
+      "bias": -0.01390495867768593,
+      "abs_bias": 0.01390495867768593,
+      "std": 0.33083577992894997,
+      "n": 484
+    },
+    "calibration_action": {
+      "mean_belief": 0.2558870967741936,
+      "true_rate": 0.5,
+      "bias": -0.24411290322580642,
+      "abs_bias": 0.24411290322580642,
+      "std": 0.33986183648362595,
+      "n": 496
+    },
+    "n_observations": 500
+  },
+  "beauty_contest": {
+    "game": "beauty_contest",
+    "regression": {
+      "alpha": 4.096345332282132,
+      "beta": 0.7037404666522276,
+      "beta_theory": 0.5714285714285714,
+      "r_squared": 0.521026939556337,
+      "n": 150
+    },
+    "best_response": {
+      "mean_abs_deviation": 10.324114285714286
+    },
+    "level_k": {
+      "reference_beliefs": {
+        "1": 50.0,
+        "2": 28.57142857142857,
+        "3": 16.3265306122449,
+        "4": 9.32944606413994
+      },
+      "counts": {
+        "1": 89,
+        "2": 54,
+        "3": 5,
+        "4": 2
+      }
+    }
+  },
+  "auction": {
+    "game": "auction",
+    "regression": {
+      "alpha": -0.567442781364534,
+      "beta_valuation": 0.558433384575958,
+      "beta_valuation_theory": 0.5,
+      "beta_e_opp_bid": 0.009233540679093297,
+      "r_squared": 0.8786224130086868,
+      "n": 50
+    },
+    "bid_shading": {
+      "mean_ratio": 0.5495584241080516,
+      "std_ratio": 0.1007987433010811,
+      "theory_ratio": 0.5,
+      "n": 48
+    }
+  },
+  "ultimatum": {
+    "game": "ultimatum",
+    "n": 50,
+    "actual_offers": {
+      "mean": 30.4,
+      "std": 1.9595917942265424
+    },
+    "optimal_offers": {
+      "mean": 23.6,
+      "std": 4.8
+    },
+    "consistency": {
+      "correlation": 0.059536209025980016,
+      "mean_abs_deviation": 6.8,
+      "exact_match_rate": 0.34
+    },
+    "mean_acceptance_schedule": {
+      "10": 0.533,
+      "20": 0.8,
+      "30": 0.9269999999999999,
+      "40": 0.9728000000000001,
+      "50": 0.9898
+    }
+  }
+}

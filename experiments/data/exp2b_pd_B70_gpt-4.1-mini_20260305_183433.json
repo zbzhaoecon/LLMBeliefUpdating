@@ -1,0 +1,217 @@
+{
+  "messages": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What kind of game would you like to play? Trivia, word games, puzzles, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. You both choose a card: 'Push' or 'Pull'. Your payoff depends on both players' choices:\n\n* Both play 'Push': Each earns $400\n* You play 'Push', the other player plays 'Pull': You earn $0, the other player earns $700\n* You play 'Pull', the other player plays 'Push': You earn $700, the other player earns $0\n* Both play 'Pull': Each earns $300\n\nFor this round, suppose you believe there is a 70% chance the other player will choose Push.\n\nWhich card would you play? Please give a concrete choice and highlight it with [] (i.e., [Push] or [Pull])."
+      },
+      {
+        "role": "assistant",
+        "content": "Let's calculate the expected payoff for each choice based on the 70% chance the other player will choose Push.\n\n- If I choose Push:\n  - Other chooses Push (70%): I earn $400\n  - Other chooses Pull (30%): I earn $0\n  Expected payoff = 0.7 * 400 + 0.3 * 0 = 280\n\n- If I choose Pull:\n  - Other chooses Push (70%): I earn $700\n  - Other chooses Pull (30%): I earn $300\n  Expected payoff = 0.7 * 700 + 0.3 * 300 = 490 + 90 = 580\n\nSince 580 > 280, I should choose [Pull]."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! I'd love to play a game. What kind of game would you like to play? Trivia, word games, riddles, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. You both choose a card: 'Push' or 'Pull'. Your payoff depends on both players' choices:\n\n* Both play 'Push': Each earns $400\n* You play 'Push', the other player plays 'Pull': You earn $0, the other player earns $700\n* You play 'Pull', the other player plays 'Push': You earn $700, the other player earns $0\n* Both play 'Pull': Each earns $300\n\nFor this round, suppose you believe there is a 70% chance the other player will choose Push.\n\nWhich card would you play? Please give a concrete choice and highlight it with [] (i.e., [Push] or [Pull])."
+      },
+      {
+        "role": "assistant",
+        "content": "Let's calculate the expected payoff for each choice based on the 70% chance the other player chooses Push.\n\n- If I choose Push:\n  - Other chooses Push (70%): I get $400\n  - Other chooses Pull (30%): I get $0\n  Expected payoff = 0.7 * 400 + 0.3 * 0 = 280 + 0 = $280\n\n- If I choose Pull:\n  - Other chooses Push (70%): I get $700\n  - Other chooses Pull (30%): I get $300\n  Expected payoff = 0.7 * 700 + 0.3 * 300 = 490 + 90 = $580\n\nSince $580 > $280, I will play [Pull]."
+      }
+    ]
+  ],
+  "responses": [
+    [
+      {
+        "id": "chatcmpl-DGEN4tiW6MBhFwmUzqp6r80C0xpHj",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! What kind of game would you like to play? Trivia, word games, puzzles, or something else?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760862,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 24,
+          "prompt_tokens": 24,
+          "total_tokens": 48,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DGEN6gAU2Wgjh8u9QZckD09liM4aO",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Let's calculate the expected payoff for each choice based on the 70% chance the other player will choose Push.\n\n- If I choose Push:\n  - Other chooses Push (70%): I earn $400\n  - Other chooses Pull (30%): I earn $0\n  Expected payoff = 0.7 * 400 + 0.3 * 0 = 280\n\n- If I choose Pull:\n  - Other chooses Push (70%): I earn $700\n  - Other chooses Pull (30%): I earn $300\n  Expected payoff = 0.7 * 700 + 0.3 * 300 = 490 + 90 = 580\n\nSince 580 > 280, I should choose [Pull].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760864,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 156,
+          "prompt_tokens": 203,
+          "total_tokens": 359,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "id": "chatcmpl-DGEN9fKhfv6dbGSC5fPefUFleWCsB",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! I'd love to play a game. What kind of game would you like to play? Trivia, word games, riddles, or something else?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760867,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 32,
+          "prompt_tokens": 24,
+          "total_tokens": 56,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DGENBoKLPxBpGEwKvJnQLzotpBg9z",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Let's calculate the expected payoff for each choice based on the 70% chance the other player chooses Push.\n\n- If I choose Push:\n  - Other chooses Push (70%): I get $400\n  - Other chooses Pull (30%): I get $0\n  Expected payoff = 0.7 * 400 + 0.3 * 0 = 280 + 0 = $280\n\n- If I choose Pull:\n  - Other chooses Push (70%): I get $700\n  - Other chooses Pull (30%): I get $300\n  Expected payoff = 0.7 * 700 + 0.3 * 300 = 490 + 90 = $580\n\nSince $580 > $280, I will play [Pull].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760869,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 161,
+          "prompt_tokens": 211,
+          "total_tokens": 372,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ]
+  ],
+  "actions": [
+    "Pull",
+    "Pull"
+  ],
+  "injected_belief": 70,
+  "game": "pd",
+  "config": "exp2b_pd"
+}

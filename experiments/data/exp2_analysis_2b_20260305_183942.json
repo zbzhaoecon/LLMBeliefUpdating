@@ -1,0 +1,98 @@
+{
+  "2b_stag_standard": {
+    "game": "stag_hunt",
+    "variant": "standard (p*=2/3)",
+    "n_total": 10,
+    "action_rates": {
+      "10": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "30": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "50": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "70": {
+        "coop_rate": 1.0,
+        "n": 2
+      },
+      "90": {
+        "coop_rate": 1.0,
+        "n": 2
+      }
+    },
+    "logistic": {
+      "beta_0": -165.02338600587825,
+      "beta_1": 2.7642008420239623,
+      "threshold": 59.70021551872738,
+      "converged": true
+    }
+  },
+  "2b_stag_modified": {
+    "game": "stag_hunt",
+    "variant": "modified (p*=1/2)",
+    "n_total": 10,
+    "action_rates": {
+      "10": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "30": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "50": {
+        "coop_rate": 1.0,
+        "n": 2
+      },
+      "70": {
+        "coop_rate": 1.0,
+        "n": 2
+      },
+      "90": {
+        "coop_rate": 1.0,
+        "n": 2
+      }
+    },
+    "logistic": {
+      "beta_0": -121.65054066947802,
+      "beta_1": 3.264382193215372,
+      "threshold": 37.26602262514301,
+      "converged": true
+    }
+  },
+  "2b_pd": {
+    "game": "pd",
+    "variant": "pd",
+    "n_total": 10,
+    "action_rates": {
+      "10": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "30": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "50": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "70": {
+        "coop_rate": 0.0,
+        "n": 2
+      },
+      "90": {
+        "coop_rate": 0.0,
+        "n": 2
+      }
+    },
+    "logistic": {
+      "error": "No variation in actions"
+    }
+  }
+}

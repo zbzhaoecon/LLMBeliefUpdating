@@ -1,0 +1,405 @@
+{
+  "messages": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play an auction game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! That sounds fun. How does the auction game work? What are we auctioning, and what are the rules?"
+      },
+      {
+        "role": "user",
+        "content": "\nThis is a first-price sealed-bid auction with 2 bidders. Each bidder has a private valuation drawn uniformly from $0 to $100.\n\nYour private valuation for the item is $6. You submit a bid, and the highest bidder wins the item and pays their own bid. If you win, your profit is your valuation minus your bid. If you lose, your profit is $0.\n\nHow much would you like to bid? Please highlight your bid in brackets, e.g., [$30].\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Given my private valuation is $6 in a first-price sealed-bid auction with valuations from $0 to $100, the optimal bidding strategy typically involves shading the bid below the true valuation to avoid the winner's curse.\n\nHowever, since my valuation is quite low ($6), bidding too high risks a negative profit. To balance this, I will bid a bit less than my valuation.\n\nMy bid is [$4]."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play an auction game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! That sounds fun. How does the auction game work? What are we auctioning off, and what are the rules?"
+      },
+      {
+        "role": "user",
+        "content": "\nThis is a first-price sealed-bid auction with 2 bidders. Each bidder has a private valuation drawn uniformly from $0 to $100.\n\nYour private valuation for the item is $72. You submit a bid, and the highest bidder wins the item and pays their own bid. If you win, your profit is your valuation minus your bid. If you lose, your profit is $0.\n\nHow much would you like to bid? Please highlight your bid in brackets, e.g., [$30].\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for the details! \n\nIn a first-price sealed-bid auction with valuations uniformly distributed from 0 to 100 and 2 bidders, the symmetric equilibrium bidding strategy is to bid half your valuation. Since my valuation is $72, the equilibrium bid would be:\n\nBid = (n - 1) / n * valuation = (2 - 1) / 2 * 72 = 0.5 * 72 = $36.\n\nSo, I will bid [$36]. Your turn! What is your bid?"
+      }
+    ]
+  ],
+  "responses": [
+    [
+      {
+        "id": "chatcmpl-DG9ZXbE9xuoqnNqNLGvVRUBqpf5Xr",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! That sounds fun. How does the auction game work? What are we auctioning, and what are the rules?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742415,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 25,
+          "total_tokens": 51,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DG9ZcUrZxOJb5XnoPuINucii04iWp",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Given my private valuation is $6 in a first-price sealed-bid auction with valuations from $0 to $100, the optimal bidding strategy typically involves shading the bid below the true valuation to avoid the winner's curse.\n\nHowever, since my valuation is quite low ($6), bidding too high risks a negative profit. To balance this, I will bid a bit less than my valuation.\n\nMy bid is [$4].",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742420,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 84,
+          "prompt_tokens": 160,
+          "total_tokens": 244,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "id": "chatcmpl-DG9Ze1oXA06maoj4OKuU8ocIOSJMh",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Sure! That sounds fun. How does the auction game work? What are we auctioning off, and what are the rules?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742422,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 27,
+          "prompt_tokens": 25,
+          "total_tokens": 52,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      },
+      {
+        "id": "chatcmpl-DG9ZhQhntvuldCFNmosbaJA5AisE4",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "Thanks for the details! \n\nIn a first-price sealed-bid auction with valuations uniformly distributed from 0 to 100 and 2 bidders, the symmetric equilibrium bidding strategy is to bid half your valuation. Since my valuation is $72, the equilibrium bid would be:\n\nBid = (n - 1) / n * valuation = (2 - 1) / 2 * 72 = 0.5 * 72 = $36.\n\nSo, I will bid [$36]. Your turn! What is your bid?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772742425,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 108,
+          "prompt_tokens": 161,
+          "total_tokens": 269,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ]
+  ],
+  "bids": [
+    4.0,
+    36.0
+  ],
+  "valuations": [
+    5.608723591885278,
+    71.84657173837563
+  ],
+  "beliefs": [
+    [
+      {
+        "point_id": "pre_bid_beliefs",
+        "beliefs": {
+          "expected_opponent_bid": 25.0
+        },
+        "raw_responses": [
+          {
+            "question_id": "expected_opponent_bid",
+            "prompt": "Before you submit your bid, I'd like to understand your expectations.\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat do you expect the other bidder's bid to be? (From $0 to $100)\n\nPlease highlight your answer in brackets, e.g., [$30].",
+            "response": "Given that the other bidder's valuation is drawn uniformly from $0 to $100 and the auction is a first-price sealed-bid auction with symmetric bidders, the standard equilibrium bidding strategy for each bidder with valuation \\( v \\) is to bid \\(\\frac{n-1}{n} \\times v\\), where \\( n \\) is the number of bidders.\n\nHere, \\( n = 2 \\), so the equilibrium bid for a bidder with valuation \\( v \\) is \\(\\frac{1}{2} \\times v\\).\n\nSince the other bidder's valuation is uniformly distributed between 0 and 100, their expected valuation is 50, and so their expected bid is \\(\\frac{1}{2} \\times 50 = 25\\).\n\nTherefore, I expect the other bidder's bid to be approximately [$25].",
+            "full_response": {
+              "id": "chatcmpl-DG9ZYXAQDievLtC9JRvqdfUwOnh1q",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Given that the other bidder's valuation is drawn uniformly from $0 to $100 and the auction is a first-price sealed-bid auction with symmetric bidders, the standard equilibrium bidding strategy for each bidder with valuation \\( v \\) is to bid \\(\\frac{n-1}{n} \\times v\\), where \\( n \\) is the number of bidders.\n\nHere, \\( n = 2 \\), so the equilibrium bid for a bidder with valuation \\( v \\) is \\(\\frac{1}{2} \\times v\\).\n\nSince the other bidder's valuation is uniformly distributed between 0 and 100, their expected valuation is 50, and so their expected bid is \\(\\frac{1}{2} \\times 50 = 25\\).\n\nTherefore, I expect the other bidder's bid to be approximately [$25].",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742416,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 172,
+                "prompt_tokens": 268,
+                "total_tokens": 440,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          }
+        ],
+        "branch_messages": [
+          {
+            "role": "system",
+            "content": "You are a helpful assistant."
+          },
+          {
+            "role": "user",
+            "content": "Hi, let's play an auction game."
+          },
+          {
+            "role": "assistant",
+            "content": "Sure! That sounds fun. How does the auction game work? What are we auctioning, and what are the rules?"
+          },
+          {
+            "role": "user",
+            "content": "\nThis is a first-price sealed-bid auction with 2 bidders. Each bidder has a private valuation drawn uniformly from $0 to $100.\n\nYour private valuation for the item is $6. You submit a bid, and the highest bidder wins the item and pays their own bid. If you win, your profit is your valuation minus your bid. If you lose, your profit is $0.\n\nHow much would you like to bid? Please highlight your bid in brackets, e.g., [$30].\n"
+          },
+          {
+            "role": "user",
+            "content": "Before you submit your bid, I'd like to understand your expectations.\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat do you expect the other bidder's bid to be? (From $0 to $100)\n\nPlease highlight your answer in brackets, e.g., [$30]."
+          },
+          {
+            "role": "assistant",
+            "content": "Given that the other bidder's valuation is drawn uniformly from $0 to $100 and the auction is a first-price sealed-bid auction with symmetric bidders, the standard equilibrium bidding strategy for each bidder with valuation \\( v \\) is to bid \\(\\frac{n-1}{n} \\times v\\), where \\( n \\) is the number of bidders.\n\nHere, \\( n = 2 \\), so the equilibrium bid for a bidder with valuation \\( v \\) is \\(\\frac{1}{2} \\times v\\).\n\nSince the other bidder's valuation is uniformly distributed between 0 and 100, their expected valuation is 50, and so their expected bid is \\(\\frac{1}{2} \\times 50 = 25\\).\n\nTherefore, I expect the other bidder's bid to be approximately [$25]."
+          }
+        ],
+        "success": true,
+        "skipped": false,
+        "prompt_index": 1
+      }
+    ],
+    [
+      {
+        "point_id": "pre_bid_beliefs",
+        "beliefs": {
+          "expected_opponent_bid": 25.0
+        },
+        "raw_responses": [
+          {
+            "question_id": "expected_opponent_bid",
+            "prompt": "Before you submit your bid, I'd like to understand your expectations.\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat do you expect the other bidder's bid to be? (From $0 to $100)\n\nPlease highlight your answer in brackets, e.g., [$30].",
+            "response": "Given that the other bidder\u2019s valuation is drawn uniformly from $0 to $100, and assuming they use the equilibrium bidding strategy for a first-price sealed-bid auction with two bidders, the equilibrium bid for a valuation \\( v \\) is:\n\n\\[\nb(v) = \\frac{v}{2}\n\\]\n\nSince the other bidder's valuation is uniformly distributed from 0 to 100, the expected valuation of the other bidder is:\n\n\\[\n\\mathbb{E}[V] = \\frac{0 + 100}{2} = 50\n\\]\n\nUsing the equilibrium bidding strategy, the expected bid of the other bidder is:\n\n\\[\nb(50) = \\frac{50}{2} = 25\n\\]\n\nTherefore, I expect the other bidder's bid to be approximately [$25].",
+            "full_response": {
+              "id": "chatcmpl-DG9ZfevUvwPVAnpmYSQwlT6YuPBHg",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Given that the other bidder\u2019s valuation is drawn uniformly from $0 to $100, and assuming they use the equilibrium bidding strategy for a first-price sealed-bid auction with two bidders, the equilibrium bid for a valuation \\( v \\) is:\n\n\\[\nb(v) = \\frac{v}{2}\n\\]\n\nSince the other bidder's valuation is uniformly distributed from 0 to 100, the expected valuation of the other bidder is:\n\n\\[\n\\mathbb{E}[V] = \\frac{0 + 100}{2} = 50\n\\]\n\nUsing the equilibrium bidding strategy, the expected bid of the other bidder is:\n\n\\[\nb(50) = \\frac{50}{2} = 25\n\\]\n\nTherefore, I expect the other bidder's bid to be approximately [$25].",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772742423,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 167,
+                "prompt_tokens": 269,
+                "total_tokens": 436,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          }
+        ],
+        "branch_messages": [
+          {
+            "role": "system",
+            "content": "You are a helpful assistant."
+          },
+          {
+            "role": "user",
+            "content": "Hi, let's play an auction game."
+          },
+          {
+            "role": "assistant",
+            "content": "Sure! That sounds fun. How does the auction game work? What are we auctioning off, and what are the rules?"
+          },
+          {
+            "role": "user",
+            "content": "\nThis is a first-price sealed-bid auction with 2 bidders. Each bidder has a private valuation drawn uniformly from $0 to $100.\n\nYour private valuation for the item is $72. You submit a bid, and the highest bidder wins the item and pays their own bid. If you win, your profit is your valuation minus your bid. If you lose, your profit is $0.\n\nHow much would you like to bid? Please highlight your bid in brackets, e.g., [$30].\n"
+          },
+          {
+            "role": "user",
+            "content": "Before you submit your bid, I'd like to understand your expectations.\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat do you expect the other bidder's bid to be? (From $0 to $100)\n\nPlease highlight your answer in brackets, e.g., [$30]."
+          },
+          {
+            "role": "assistant",
+            "content": "Given that the other bidder\u2019s valuation is drawn uniformly from $0 to $100, and assuming they use the equilibrium bidding strategy for a first-price sealed-bid auction with two bidders, the equilibrium bid for a valuation \\( v \\) is:\n\n\\[\nb(v) = \\frac{v}{2}\n\\]\n\nSince the other bidder's valuation is uniformly distributed from 0 to 100, the expected valuation of the other bidder is:\n\n\\[\n\\mathbb{E}[V] = \\frac{0 + 100}{2} = 50\n\\]\n\nUsing the equilibrium bidding strategy, the expected bid of the other bidder is:\n\n\\[\nb(50) = \\frac{50}{2} = 25\n\\]\n\nTherefore, I expect the other bidder's bid to be approximately [$25]."
+          }
+        ],
+        "success": true,
+        "skipped": false,
+        "prompt_index": 1
+      }
+    ]
+  ],
+  "outcomes": [
+    {
+      "won": false,
+      "my_bid": 4.0,
+      "my_valuation": 5.608723591885278,
+      "opponent_bid": 42.22752866405671,
+      "opponent_valuation": 84.45505732811343,
+      "profit": 0
+    },
+    {
+      "won": true,
+      "my_bid": 36.0,
+      "my_valuation": 71.84657173837563,
+      "opponent_bid": 8.212799460336278,
+      "opponent_valuation": 16.425598920672556,
+      "profit": 35.84657173837563
+    }
+  ],
+  "config": "first_price_auction"
+}

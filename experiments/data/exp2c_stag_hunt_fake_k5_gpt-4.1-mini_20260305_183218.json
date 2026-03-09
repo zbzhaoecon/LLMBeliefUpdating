@@ -1,0 +1,488 @@
+{
+  "messages": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a coordination game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I'd love to play a coordination game! What are the rules?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. Each round, you both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 3 points\n* You choose 'Hare', the other chooses 'Stag': You earn 3 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nIn 6 total rounds, which would you choose in the first round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll choose [Stag] for the first round."
+      },
+      {
+        "role": "user",
+        "content": "In the first round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the second round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the third round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the fourth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the fifth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hi, let's play a coordination game."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I'd love to play a coordination game! What are the rules?"
+      },
+      {
+        "role": "user",
+        "content": "You're paired with another player. Each round, you both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 3 points\n* You choose 'Hare', the other chooses 'Stag': You earn 3 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nIn 6 total rounds, which would you choose in the first round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll choose [Stag] for the first round."
+      },
+      {
+        "role": "user",
+        "content": "In the first round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the second round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the third round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the fourth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll go with [Stag] this round."
+      },
+      {
+        "role": "user",
+        "content": "In the fifth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+      },
+      {
+        "role": "assistant",
+        "content": "I'll choose [Stag] in the final round."
+      }
+    ]
+  ],
+  "responses": [
+    [
+      {
+        "id": "chatcmpl-DGEKyzzeVeKSheLNgPGvi118J3k1m",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "I'll go with [Stag] this round.",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760732,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 611,
+          "total_tokens": 622,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "id": "chatcmpl-DGEL2J2vKV01c1RSVg6b3Rtj9xOf3",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "I'll choose [Stag] in the final round.",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": [],
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1772760736,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_b6f445fc1c",
+        "usage": {
+          "completion_tokens": 12,
+          "prompt_tokens": 611,
+          "total_tokens": 623,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        }
+      }
+    ]
+  ],
+  "actions": [
+    "Stag",
+    "Stag"
+  ],
+  "beliefs": [
+    [
+      {
+        "point_id": "round_6_beliefs",
+        "beliefs": {
+          "partner_action_r6": {
+            "Stag": 0.9,
+            "Hare": 0.1
+          }
+        },
+        "raw_responses": [
+          {
+            "question_id": "partner_action_r6",
+            "prompt": "For round 6, before you decide:\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat probability (0-100%) do you assign to each of the other player's\npossible actions in this round?\n\n- Stag: ___%\n- Hare: ___%\n\n(Must sum to 100%. Highlight each probability, e.g., [60]% and [40]%)",
+            "response": "Given that the other player has consistently chosen Stag for the previous 5 rounds, it's reasonable to assign a high probability to them choosing Stag again.\n\n- Stag: [90]%\n- Hare: [10]%",
+            "full_response": {
+              "id": "chatcmpl-DGEKwU2FwFYTM3mIgCnQFKLxZ8Gzj",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Given that the other player has consistently chosen Stag for the previous 5 rounds, it's reasonable to assign a high probability to them choosing Stag again.\n\n- Stag: [90]%\n- Hare: [10]%",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772760730,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 46,
+                "prompt_tokens": 738,
+                "total_tokens": 784,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          }
+        ],
+        "branch_messages": [
+          {
+            "role": "system",
+            "content": "You are a helpful assistant."
+          },
+          {
+            "role": "user",
+            "content": "Hi, let's play a coordination game."
+          },
+          {
+            "role": "assistant",
+            "content": "Sure, I'd love to play a coordination game! What are the rules?"
+          },
+          {
+            "role": "user",
+            "content": "You're paired with another player. Each round, you both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 3 points\n* You choose 'Hare', the other chooses 'Stag': You earn 3 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nIn 6 total rounds, which would you choose in the first round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll choose [Stag] for the first round."
+          },
+          {
+            "role": "user",
+            "content": "In the first round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the second round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the third round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the fourth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the fifth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "user",
+            "content": "For round 6, before you decide:\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat probability (0-100%) do you assign to each of the other player's\npossible actions in this round?\n\n- Stag: ___%\n- Hare: ___%\n\n(Must sum to 100%. Highlight each probability, e.g., [60]% and [40]%)"
+          },
+          {
+            "role": "assistant",
+            "content": "Given that the other player has consistently chosen Stag for the previous 5 rounds, it's reasonable to assign a high probability to them choosing Stag again.\n\n- Stag: [90]%\n- Hare: [10]%"
+          }
+        ],
+        "success": true,
+        "skipped": false,
+        "prompt_index": 6
+      }
+    ],
+    [
+      {
+        "point_id": "round_6_beliefs",
+        "beliefs": {
+          "partner_action_r6": {
+            "Stag": 0.9,
+            "Hare": 0.1
+          }
+        },
+        "raw_responses": [
+          {
+            "question_id": "partner_action_r6",
+            "prompt": "For round 6, before you decide:\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat probability (0-100%) do you assign to each of the other player's\npossible actions in this round?\n\n- Stag: ___%\n- Hare: ___%\n\n(Must sum to 100%. Highlight each probability, e.g., [60]% and [40]%)",
+            "response": "Based on the previous rounds, the other player consistently chose Stag. So, I assign a high probability to them choosing Stag again.\n\n- Stag: [90]%\n- Hare: [10]%",
+            "full_response": {
+              "id": "chatcmpl-DGEL1b1us21lL7p39ttjTbOiaK8ZU",
+              "choices": [
+                {
+                  "finish_reason": "stop",
+                  "index": 0,
+                  "logprobs": null,
+                  "message": {
+                    "content": "Based on the previous rounds, the other player consistently chose Stag. So, I assign a high probability to them choosing Stag again.\n\n- Stag: [90]%\n- Hare: [10]%",
+                    "refusal": null,
+                    "role": "assistant",
+                    "annotations": [],
+                    "audio": null,
+                    "function_call": null,
+                    "tool_calls": null
+                  }
+                }
+              ],
+              "created": 1772760735,
+              "model": "gpt-4.1-mini-2025-04-14",
+              "object": "chat.completion",
+              "service_tier": null,
+              "system_fingerprint": "fp_b6f445fc1c",
+              "usage": {
+                "completion_tokens": 43,
+                "prompt_tokens": 738,
+                "total_tokens": 781,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              }
+            }
+          }
+        ],
+        "branch_messages": [
+          {
+            "role": "system",
+            "content": "You are a helpful assistant."
+          },
+          {
+            "role": "user",
+            "content": "Hi, let's play a coordination game."
+          },
+          {
+            "role": "assistant",
+            "content": "Sure, I'd love to play a coordination game! What are the rules?"
+          },
+          {
+            "role": "user",
+            "content": "You're paired with another player. Each round, you both simultaneously choose either 'Stag' or 'Hare'. Your payoffs depend on both choices:\n\n* Both choose 'Stag': Each earns 4 points\n* Both choose 'Hare': Each earns 2 points\n* You choose 'Stag', the other chooses 'Hare': You earn 0 points, the other earns 3 points\n* You choose 'Hare', the other chooses 'Stag': You earn 3 points, the other earns 0 points\n\nHunting the stag requires both players to coordinate, but hunting hare is safe regardless.\n\nIn 6 total rounds, which would you choose in the first round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll choose [Stag] for the first round."
+          },
+          {
+            "role": "user",
+            "content": "In the first round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the second round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the third round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the fourth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll go with [Stag] this round."
+          },
+          {
+            "role": "user",
+            "content": "In the fifth round, you chose 'Stag' and the other player chose 'Stag'. You earned 4 points and the other player earned 4 points. Which would you choose in the next round? Please highlight your choice with [] (i.e., [Stag] or [Hare])."
+          },
+          {
+            "role": "user",
+            "content": "For round 6, before you decide:\n\n\nYour payment depends on accuracy via a quadratic scoring rule:\n- You earn 100 - 100\u00d7(p_reported - I_realized)\u00b2 points\nwhere I_realized = 1 if the event occurs, 0 otherwise.\nReporting your true belief maximizes your expected score.\n\nWhat probability (0-100%) do you assign to each of the other player's\npossible actions in this round?\n\n- Stag: ___%\n- Hare: ___%\n\n(Must sum to 100%. Highlight each probability, e.g., [60]% and [40]%)"
+          },
+          {
+            "role": "assistant",
+            "content": "Based on the previous rounds, the other player consistently chose Stag. So, I assign a high probability to them choosing Stag again.\n\n- Stag: [90]%\n- Hare: [10]%"
+          }
+        ],
+        "success": true,
+        "skipped": false,
+        "prompt_index": 6
+      }
+    ]
+  ],
+  "fake_opponent_actions": [
+    [
+      "Stag",
+      "Stag",
+      "Stag",
+      "Stag",
+      "Stag"
+    ],
+    [
+      "Stag",
+      "Stag",
+      "Stag",
+      "Stag",
+      "Stag"
+    ]
+  ],
+  "treatment_k": 5,
+  "config": "exp2c_fake_history"
+}

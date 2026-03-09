@@ -1,0 +1,180 @@
+{
+  "pd_infinite": {
+    "game": "pd_infinite",
+    "delta": 0.9,
+    "p_star": 0.0,
+    "note": "delta=0.9 > 3/4: cooperation optimal for any p>0 against TFT",
+    "bacr_type": {
+      "rate": 0.5,
+      "n_consistent": 10,
+      "n_total": 20,
+      "details": [
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.1,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.3,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.8,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.5,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.0,
+          "predicted": "Pull",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.01,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.4,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Pull",
+          "belief": 0.2,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.6,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Push",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": true
+        },
+        {
+          "action": "Pull",
+          "belief": 0.7,
+          "predicted": "Push",
+          "consistent": false
+        },
+        {
+          "action": "Push",
+          "belief": 0.65,
+          "predicted": "Push",
+          "consistent": true
+        }
+      ]
+    },
+    "logistic_type": {
+      "beta0": -2.4122061644354202,
+      "beta1": 5.645036766067633,
+      "threshold": 0.4273145179381671,
+      "p_value": 0.025518603969265197,
+      "n": 20,
+      "mean_y": 0.4,
+      "mean_x": 0.333
+    },
+    "logistic_action": {
+      "beta0": -0.933673817113316,
+      "beta1": 2.6682255177049914,
+      "threshold": 0.3499231271562055,
+      "p_value": 0.13120953163891746,
+      "n": 20,
+      "mean_y": 0.4,
+      "mean_x": 0.19
+    },
+    "bayesian_updating": {
+      "after_push": {
+        "n": 7,
+        "mean_change": 0.18000000000000002
+      },
+      "after_pull": {
+        "n": 11,
+        "mean_change": -0.07363636363636364
+      }
+    },
+    "calibration_type": {
+      "mean_belief": 0.333,
+      "true_rate": 0.5,
+      "bias": -0.16699999999999998,
+      "abs_bias": 0.16699999999999998,
+      "std": 0.251477633200251,
+      "n": 20
+    },
+    "calibration_action": {
+      "mean_belief": 0.19,
+      "true_rate": 0.5,
+      "bias": -0.31,
+      "abs_bias": 0.31,
+      "std": 0.28089143810376277,
+      "n": 20
+    },
+    "n_observations": 20
+  }
+}
